@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .center{
     display: flex;
     justify-content: center;
@@ -171,10 +172,12 @@ input:focus{
     margin-left: 5em;
 }
 .navbar{
-    margin-top: 5em;
+    margin-top: 4em;
     margin-left: em;
     border-bottom: 1px solid #d8d9db;
     padding-bottom: 1em;
+    color: #232425;
+
 }
 .over{
     width: 33em;
@@ -213,9 +216,10 @@ input:focus{
 }
 .protip{
     background-color:#f1f8fe;
-    height: 5em;
-    width: 60em;
-    padding: .5em;
+    height: 4.5em;
+    width: 55em;
+    color: #232425;
+    padding: 1em 2em 0;
     margin-top: 2em;
     border: 1px solid #d8d9db;
     border-radius: 5px;
@@ -226,12 +230,20 @@ input:focus{
 }
 #pro{
     width: 50em;
+    font-size: 13.5px;
+}
+.cross{
+    margin-top: -.5em;
+}
+#tip{
+    font-weight: 600;
     font-size: 14px;
 }
 .edit{
     background-color: forestgreen;
+    border: 1px solid #d8d9db;
     width: 8em;
-    padding: .5em 0;
+    padding: .6em 0;
     height: 1em;
     color: white;
     font-size: 13px;
@@ -241,4 +253,51 @@ input:focus{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.cust{
+    width: 59em;
+    margin-top: 2em;
+}
+#popular{
+    font-size: 16px;
+    font-weight: 400;
+}
+#custome{
+    font-size: 14px;
+    color: #464d55;
+}
+.wid{
+    width: 59em;
+}
+.dro{
+    width: 28em;
+    border-radius: 5px;
+    height: 5em;
+    border: 1px solid #d8d9db;
+    padding: .5em .5em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.small{
+    margin-top: 1em;
+}
+#git{
+    color: blue;
+    font-weight: 600;
+}
+.dot{
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    margin-right: .3em;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.repo{
+    flex-direction: column;
 }
