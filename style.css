@@ -94,3 +94,30 @@ input:focus{
     font-weight: 600;
     font-size: 15px;
 }
+.circle{
+    margin-left: 5em;
+    margin-top: 6em;
+    align-items: center;
+}
+.cirpics{
+    width: 20em;
+    height: 20em;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.sticker{
+    width: 2.5em;
+    height: 2.5em;
+    background-color: red;
+    margin-left: -2.5em;
+    margin-top: 12em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
