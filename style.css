@@ -152,3 +152,21 @@ input:focus{
     color: slategray;
     margin-left: 4em;
 }
+.line{
+    border-top: solid 1px #d8d9db;
+    width: 21em;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+#org{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 5em;
+    margin-top: 1em;
+    
+}
+#img{
+    width: 3em;
+    height:  3em;
+    margin-left: 5em;
+}
