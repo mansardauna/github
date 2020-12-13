@@ -2,6 +2,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 .align{
     align-items: center;
@@ -217,7 +218,8 @@ input:focus{
 .protip{
     background-color:#f1f8fe;
     height: 4.5em;
-    width: 55em;
+    width: 56.5em;
+    margin-left: .5em;
     color: #232425;
     padding: 1em 2em 0;
     margin-top: 2em;
@@ -255,22 +257,25 @@ input:focus{
     -o-border-radius: 5px;
 }
 .cust{
-    width: 59em;
+    width: 61em;
     margin-top: 2em;
 }
 #popular{
     font-size: 16px;
     font-weight: 400;
+    margin-left: .5em;
+
 }
 #custome{
     font-size: 14px;
     color: #464d55;
 }
 .wid{
-    width: 59em;
+    width: 60.5em;
+    margin-left: .5em;
 }
 .dro{
-    width: 28em;
+    width: 28.5em;
     border-radius: 5px;
     height: 5em;
     border: 1px solid #d8d9db;
@@ -300,4 +305,7 @@ input:focus{
 }
 .repo{
     flex-direction: column;
+}
+#shot{
+    margin-top: 2em;
 }
