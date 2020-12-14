@@ -309,3 +309,94 @@ input:focus{
 #shot{
     margin-top: 2em;
 }
+.wide{
+    width: 60.5em;
+    margin-left: .5em;
+}
+.year{
+    height: 2.5em;
+    width: 8em;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    padding: .2em 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.date{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.dec{
+    font-size: 13px;
+    font-weight: 500;
+}
+.longline{
+    width: 44em;
+    border-top: 1px solid #d8d9db;
+    margin-left: 1em;
+}
+.table{
+    border-left: #d8d9db solid 2px;
+    height: 20em;
+}
+.opor{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.cover{
+    width: 2.7em;
+    height: 2.7em;
+    /* padding: .1em; */
+    border-radius: 50px;
+    background-color: white;
+}
+.egg{
+    width: 2em;
+    height: 2em;
+    background-color: lightgray;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.commi{
+    width: 50em;
+    margin-left: -1em;
+    margin-top: 2em;
+}
+.col{
+    flex-direction: column;
+    height: 3em;
+    justify-content: space-between;
+}
+.end{
+    align-items: flex-end;
+}
+.tick{
+    height: .6em;
+    width: 12em;
+    border-radius: 50px;
+    background-color: green;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#link{
+    font-size: 12px;
+}
+#comnum{
+    font-size: 17px;
+
+}
+a{
+    color: blue;
+    font-size: 14px;
+    margin-right: 1em;
+    
+}
