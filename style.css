@@ -96,14 +96,17 @@ input:focus{
     font-weight: 600;
     font-size: 15px;
 }
+.profile{
+    width: 25em;
+}
 .circle{
     margin-left: 5em;
-    margin-top: 6em;
+    margin-top: 5em;
     align-items: center;
     margin-bottom: 2em;
 }
 .button{
-    width: 20em;
+    width: 18em;
     height: 1em;
     margin-left: 5em;
     margin-top: 1em;
@@ -119,9 +122,9 @@ input:focus{
 
 
 .cirpics{
-    width: 20em;
-    height: 20em;
-    background-color: black;
+    width: 18em;
+    height: 18em;
+    /* background-color: black; */
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -135,7 +138,7 @@ input:focus{
     align-items: center;
     display: flex;
     background-color: white;
-    border: slategray .2px solid;
+    border: #e3e6ea .2px solid;
     margin-left: -2.5em;
     margin-top: 12em;
     border-radius: 50%;
@@ -156,7 +159,7 @@ input:focus{
 }
 .line{
     border-top: solid 1px #d8d9db;
-    width: 22em;
+    width: 19em;
     margin-top: 3em;
     margin-left: 5em;
 }
@@ -190,6 +193,7 @@ input:focus{
 }
 #txt{
     margin-left: .5em;
+    font-size: 14px;
 }
 .dark{
     border: #d8d9db 2.5px solid;
@@ -266,9 +270,17 @@ input:focus{
     margin-left: .5em;
 
 }
+#robot,#ruby{
+    font-size: 12px;
+    color: gray;
+}
 #custome{
-    font-size: 14px;
-    color: #464d55;
+    font-size: 12px;
+    color: gray;
+}
+#pack{
+    width: 1em;
+    height: 1em;
 }
 .wid{
     width: 60.5em;
@@ -292,16 +304,23 @@ input:focus{
     color: blue;
     font-weight: 600;
 }
-.dot{
+.dot,.dot1,.dot2{
     width: .7em;
     height: .7em;
-    background-color: black;
+    background-color: #e34c26;
     margin-right: .3em;
     border-radius:50% ;
     -webkit-border-radius:50% ;
     -moz-border-radius:50% ;
     -ms-border-radius:50% ;
     -o-border-radius:50% ;
+}
+
+.dot1{
+    background-color: #563d7c;
+}
+.dot2{
+    background-color: #701516;
 }
 .repo{
     flex-direction: column;
@@ -340,8 +359,8 @@ input:focus{
     margin-left: 1em;
 }
 .table{
-    border-left: #d8d9db solid 2px;
-    height: 20em;
+    border-left: #d8d9db solid 1.4px;
+    height: 28em;
 }
 .opor{
     margin-left: 2em;
@@ -420,4 +439,75 @@ a{
 }
 .com{
     margin-top: 3em;
+}
+.code{
+    flex-direction: column;
+    margin-top: 1em;
+    height: 3em;
+}
+.box{
+    border: 1px solid #d8d9db;
+    height: 8em;
+    width: 47em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.group{
+    width: 7em;
+    height: 7em;
+}
+#vil{
+    font-size: 20px;
+    font-weight: 600;
+}
+#haven{
+    font-size: 13px;
+    color: grey;
+}
+.show{
+    width: 58em;
+    height: 2.5em;
+    border: 1px solid #d8d9db;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    font-size: 13px;
+    font-weight: 500;
+    color: blue;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.sometin,.ref{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 5em;
+    margin-left: 1em;
+}
+.ref{
+    color: blue;
+    margin-left: 0;
+}
+.inc{
+    width: 9em;
+}
+#tems{
+    color: gray;
+    font-size: 12px;
+}
+#tem{
+    color: blue;
+    font-size: 12px;
+}
+footer{
+    width: 85em;
+    height: 7em;
+    border-top: 1px solid #d8d9db;
+    margin-left: 3em;
 }
