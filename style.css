@@ -367,7 +367,7 @@ input:focus{
 .commi{
     width: 50em;
     margin-left: -1em;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 .col{
     flex-direction: column;
@@ -399,4 +399,25 @@ a{
     font-size: 14px;
     margin-right: 1em;
     
+}.ht{
+    height: 4em;
+    width: 4em;
+    align-items: flex-end;
+}
+.ball2{
+    width: .8em;
+    height: .8em;
+    background-color: red;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#ht, .day{
+    font-size: 12px;
+    color: gray;
+}
+.com{
+    margin-top: 3em;
 }
