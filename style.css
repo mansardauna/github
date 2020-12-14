@@ -293,8 +293,8 @@ input:focus{
     font-weight: 600;
 }
 .dot{
-    width: 1em;
-    height: 1em;
+    width: .7em;
+    height: .7em;
     background-color: black;
     margin-right: .3em;
     border-radius:50% ;
